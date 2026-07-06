@@ -1,0 +1,12 @@
+name: Titanic_Model_Training_Project
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      n_estimators: {type: int, default: 50}
+      max_depth: {type: int, default: 5}
+      min_samples_split: {type: int, default: 10}
+      min_samples_leaf: {type: int, default: 1}
+    command: "python modelling.py --n-estimators {n_estimators} --max-depth {max_depth} --min-samples-split {min_samples_split} --min-samples-leaf {min_samples_leaf}"
