@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/0/9c6e9fc18c6b4f39ac83000ddf530501/artifacts
+end_time: 1783322754622
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9c6e9fc18c6b4f39ac83000ddf530501
+run_name: carefree-ape-41
+run_uuid: 9c6e9fc18c6b4f39ac83000ddf530501
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783322747683
+status: 3
+tags: []
+user_id: runner
