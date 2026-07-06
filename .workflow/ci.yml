@@ -35,7 +35,7 @@ jobs:
     - name: Run MLProject
       run: |
         cd MLProject
-        mlflow run . --env-manager=local
+        mlflow run . --env-manager=local > mlflow_run.log 2>&1 || (cat mlflow_run.log; exit 1)
 
     # 5. Commit and push the generated MLruns artifacts to the GitHub Repository
     - name: Commit and Push Model Artifacts
