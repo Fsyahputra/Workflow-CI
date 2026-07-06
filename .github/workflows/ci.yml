@@ -9,6 +9,8 @@ on:
 jobs:
   train-and-dockerize:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
     # 1. Checkout repository code
@@ -33,7 +35,7 @@ jobs:
     - name: Run MLProject
       run: |
         cd MLProject
-        mlflow run . --no-conda
+        mlflow run . --env-manager=local
 
     # 5. Commit and push the generated MLruns artifacts to the GitHub Repository
     - name: Commit and Push Model Artifacts

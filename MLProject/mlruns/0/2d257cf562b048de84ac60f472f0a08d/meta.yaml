@@ -1,0 +1,15 @@
+artifact_uri: file:///home/fadhil/git/digdaya-bi/SMSML/Workflow-CI/MLProject/mlruns/0/2d257cf562b048de84ac60f472f0a08d/artifacts
+end_time: 1783321811398
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2d257cf562b048de84ac60f472f0a08d
+run_name: zealous-shrike-191
+run_uuid: 2d257cf562b048de84ac60f472f0a08d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783321806948
+status: 3
+tags: []
+user_id: fadhil
